@@ -1,0 +1,7 @@
+default: skipList
+
+skipList: skipList.c skipList.h
+	gcc -Wall -ansi -c skipList.c
+
+clean:
+	rm *.o
